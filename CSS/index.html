@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./external.css">
+    <title>CSS</title>
+    <!--Internal-->
+    
+    <style>
+       
+        p{
+            background-color: rgb(105, 11, 194);
+            color: rgb(203, 236, 236);
+            padding: 10px;
+            border: 2px solid yellow;
+            /*border: 2px dotted yellow;
+            border: 2px dashed yellow;*/
+        }
+        
+        
+        /* CLASS SELECTOR*/
+        .line1{
+            background-color: blue;
+
+        }
+        .line4{
+            background-color: rgb(198, 209, 36);
+
+        }
+        #line5{
+            background-color: rgb(171, 19, 24);
+
+        }
+        
+        /* ATTRIBUTE SELECTOR*/
+        input[ type="text"]{   /*input ke beech mai no space*/
+            background-color: azure;
+        }
+
+        /* PSEDUDO SELECTOR */
+        button:hover{
+            background-color: blue;
+            margin: 10px;
+            border : 3px solid pink
+        }
+
+        /* SELECTOR LIST*/
+        
+        h1,p {
+            background-color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>im learning CSS</h1>
+    <!--INLINE-->
+    <!--
+    <p style="background-color: yellow ;color: red ; margin: 100px; padding: 100px;">in line---Lorem ipsum dolor sit amet consectetur adipisicing elit.t?</p>-->
+   
+   
+    <!--INTERNAL-->
+    <!--
+    <p> internal---Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Ipsam facere repudiandae odit alias expedita. Ad ducimus, asperiores 
+        quod nobis cum molestias numquam temporibus aliquam odit soluta illum voluptas,
+         reprehenderit hic.</p>-->
+    
+    
+         <!--EXTERNAL -->
+    <p>external --Lorem ipsum dolor, sit ametm esse.</p>
+    
+    
+    <!--CLASS SEL-->
+    <p class="line1">Lorem ipsum dolor, sit ametm esse.</p>
+    <p>Lorem ipsum dolor, sit ametm esse.</p>
+    <p>Lorem ipsum dolor, sit ametm esse.</p>
+    <p class="line4">Lorem ipsum dolor, sit ametm esse.</p>
+    <p id="line5">Lorem ipsum dolor, sit ametm esse.</p>
+    <input type="text">
+    
+    <button>hover me</button>
+</body>
+</html> 
